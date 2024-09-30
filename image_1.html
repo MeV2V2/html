@@ -5,15 +5,19 @@
         <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="../html/images/favicon_io/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="../html/images/favicon_io/favicon-16x16.png">
-        <script src="index.js"></script>
+        
     </head>
 
     <body>
+        
         <div id="container">
             <img src="../html/images/ai_cat.webp" alt="ai_cat"> <br>
             <a href="index.html">A link back to the index</a> <br>
 
             <a href="https://www.youtube.com/@LBKTutoringAU">A link to our tutoring page</a>
+            <input type="range" min="10" max="30" id="slider" value="20"
+            onchange="changeSizeBySlider()" />
         </div>
+        <script src="index.js"></script>
     </body>
 </html>
